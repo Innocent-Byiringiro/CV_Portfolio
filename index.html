@@ -8,20 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
     <div class="main-content">
         <!-- the upper div content -->
         <div class="topper">
             <div class="firstcontent">
-                <p>Curriculum Vitae</p>
+                <!-- Clicking on this title, the middle content background should change randomly -->
+                <button id="title">Curriculum Vitae</button> 
                 <h2>Innocent Byiringiro</h2>
                 <h5>Frontend Web Designer</h5>
             </div>
             <div class="secondcontent">
-                <img src="1.png" alt="logo image">
+                <img src="logo_photo.jpg" alt="logo image">
+            </div>
+        </div>
+        <!-- alternate topper -->
+        <div class="tittle2">
+            <div>
+                <h1>Curriculum Vitae</h1>
+            </div>
+            <div>
+                <p>Innocent Byiringiro</p>
             </div>
         </div>
         <!-- the second div content -->
-        <div class="content">
+        <div id="content">
+        <!-- the right part of the middle content -->
             <div class="part1">
                 <p class="part-text-content">Experience</p>
                     <div class="firstholder">
@@ -97,11 +109,11 @@
                     <p>Global Peace Ambassador Certificate</p>
                     <p>Financial Literacy Certificate</p>
             </div>
-
+            <!-- the left part of the div content -->
             <div class="part2">
                 <p class="part-text-content">Info</p>
                     <p><b>Name</b>&nbsp &nbsp&nbsp &nbsp&nbsp  Innocent Byiringiro</p>
-                    <p><b>Date of birth</b> &nbsp &nbsp&nbsgit p &nbsp &nbsp 01 01 1997</p>
+                    <p><b>Date of birth</b> &nbsp &nbsp &nbsp &nbsp &nbsp 01 01 1997</p>
                     <p><b>Address</b>&nbsp &nbsp&nbsp &nbsp &nbsp Gatsibo, Gatsibo</p>
                     <p><b>Phone</b>&nbsp &nbsp&nbsp &nbsp &nbsp +250783801791</p>
                     <p><b>Email</b>&nbsp &nbsp&nbsp &nbsp &nbsp ibyiringiro99@gmail.com</p>
@@ -118,5 +130,6 @@
         <!-- the lower red line -->
         <div class="lower"></div>
     </div>
+<script src="main.js"></script>
 </body>
 </html>
